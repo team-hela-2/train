@@ -1,0 +1,16 @@
+PresidentsServiceE2eTest
+Full end-to-end test, this should test
+A call to the RestController to the Sql back end
+(@SprintBootTest with params, @Sql, etc.)
+ 
+PresidentsServiceIntegrationTest
+This should test the business layer to the Dao
+(@SprintBootTest, @Transactional, etc.)
+
+PresidentsServicePojoUnitTest
+This should test the business layer only
+(@Mock, @InjectMock)
+
+PresidentsServiceWebLayerTest
+This should test the RestContoller only
+(@WebMvcTest)
